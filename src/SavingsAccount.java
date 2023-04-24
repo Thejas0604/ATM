@@ -1,5 +1,5 @@
 public class SavingsAccount extends Account {
-    int interest;
+    private     int interest;
     public SavingsAccount(int accountNo, String branch, String currency, int balance,int interest) {
         super(accountNo, branch, currency, balance);
         this.interest = interest;
